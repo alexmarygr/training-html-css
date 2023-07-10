@@ -2,22 +2,15 @@
 
 * {
   margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
 body {
   font-family: 'Roboto Condensed', sans-serif;
-  background-color: rgb(67, 112, 152);
-}
-
-p {
-  line-height: 1.8;
 }
 
 .job {
   color: rgb(66, 143, 56);
-  padding: 20px 0;
 }
 
 .container {
@@ -26,7 +19,6 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-width: 350px;
   height: 100vh;
   gap: 50px;
   background-size: cover;
@@ -36,17 +28,11 @@ p {
 
 .redes-sociales{
   list-style-type: none;
-  position: relative;
   display: flex;
   gap: 85px;
 }
 
-.redes-sociales a {
-  display: flex;
-}
-
 .redes-sociales li img {
   width: 55px;
-  filter: invert(1);
   color: white;
 }
